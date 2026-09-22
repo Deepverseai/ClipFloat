@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.antigravity.clipfloat">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Zero Network Permissions: Absolute local isolation -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />

@@ -106,7 +106,7 @@ class ClipFloatAccessibilityService : AccessibilityService() {
                 }
             }
         }
-        val root = rootInActiveWindow ?: return false
+        val root = rootInActiveWindow ?: return null
         return root.findFocus(AccessibilityNodeInfo.FOCUS_INPUT)
             ?: root.findFocus(AccessibilityNodeInfo.FOCUS_ACCESSIBILITY)
     }
@@ -117,7 +117,7 @@ class ClipFloatAccessibilityService : AccessibilityService() {
 
         val tempClip = ClipData.newPlainText("ClipFloat_Payload", payload)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            tempClip.description.extras = Bundle().apply {
+            tempClip.description.extras = android.os.PersistableBundle().apply {
                 putBoolean("android.content.extra.IS_SENSITIVE", true)
             }
         }
