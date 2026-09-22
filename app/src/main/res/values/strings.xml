@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ClipFloat</string>
+    <string name="accessibility_description">ClipFloat uses the Accessibility Service solely to detect the active text input field and safely paste staged clipboard slots into forms without context-switching. ClipFloat does NOT read, collect, or transmit any keystrokes or personal data.</string>
+    <string name="disclosure_title">Accessibility &amp; Privacy Disclosure</string>
+    <string name="disclosure_body">ClipFloat uses Android\'s Accessibility API for the sole purpose of assisting users in inserting multi-slot clipboard payloads directly into active form fields.\n\n• Zero Network Access: ClipFloat does NOT declare internet permission.\n• Zero Logging: No keystrokes or typed characters are collected, analyzed, or stored.\n• Local RAM Only: Clipboard registers exist solely in volatile memory.</string>
+    <string name="disclosure_agree">I Understand &amp; Enable</string>
+    <string name="disclosure_cancel">Cancel</string>
+    <string name="overlay_permission_title">Display Over Other Apps</string>
+    <string name="overlay_permission_desc">ClipFloat requires the overlay permission to display the floating multi-slot clipboard HUD over third-party applications.</string>
+    <string name="btn_enable_overlay">Grant Overlay Permission</string>
+    <string name="btn_enable_accessibility">Enable Accessibility Service</string>
+    <string name="btn_start_hud">Start Floating HUD</string>
+    <string name="btn_stop_hud">Stop Floating HUD</string>
+    <string name="settings_title">ClipFloat Dashboard</string>
+    <string name="slot_count_label">Active Registers Count (2 - 8):</string>
+    <string name="theme_selection_label">HUD 60-30-10 Theme:</string>
+    <string name="hud_opacity_label">HUD Alpha Opacity:</string>
+    <string name="auto_trim_label">Auto-trim whitespace</string>
+    <string name="strip_trackers_label">Strip URL tracking parameters (UTM, fbclid)</string>
+</resources>

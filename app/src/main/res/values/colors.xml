@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 60-30-10 Cyber Charcoal Palette -->
+    <color name="cyber_dominant">#E00F1115</color>
+    <color name="cyber_secondary">#1E232B</color>
+    <color name="cyber_border">#2A323D</color>
+    <color name="cyber_text">#E2E8F0</color>
+    <color name="cyber_accent">#00E5FF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
